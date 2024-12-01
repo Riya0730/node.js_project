@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+/*column*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+
+/*column1*/
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+/*column 2*/
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+/*column 3*/
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column3:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+/*column 4*/
+.column4 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row4::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column4:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+
+/*column 5*/
+.column5 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row5::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column5:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+/*column 6*/
+.column6 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row6::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column6:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}

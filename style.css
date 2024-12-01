@@ -1,0 +1,54 @@
+body {
+
+    background: url('../img/front.jpg');
+    background-size: 1550px;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+
+.other {
+
+    animation: Plant 1s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Plant {
+    from {
+        transform: rotate(5deg);
+    }
+
+    to {
+        transform: rotate(-5deg);
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}

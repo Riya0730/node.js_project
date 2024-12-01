@@ -1,0 +1,89 @@
+.content {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 70%;
+    margin: 3rem auto 0 auto;
+
+}
+
+.content img {
+    height: 500px;
+
+
+}
+
+.content img:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.content h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.content p {
+    margin-left: 15px;
+
+}
+
+
+.indoor {
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin-top: 2cm;
+
+
+}
+
+.indoor h2 {
+    text-align: center;
+    margin-left: 13cm;
+
+}
+
+.indoor img {
+    margin-left: 6cm;
+    height: 500px;
+    width: 110%;
+
+
+}
+
+.indoor img:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+
+.outdoor {
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin-top: 2cm;
+}
+
+.outdoor h2 {
+    text-align: center;
+    margin-left: 13cm;
+
+}
+
+.outdoor img {
+    margin-left: 6cm;
+    height: 500px;
+    width: 110%;
+
+
+}
+
+.outdoor img:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
