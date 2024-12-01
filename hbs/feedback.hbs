@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact formt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /*background-color: #efefef;
+            font-family: sans-serif;*/
+            background: url("img/indoor-plants-for-summer_g.jpg");
+            background-size: 1550px;
+        }
+
+        .contact-box {
+            width: 500px;
+            background: transparent;
+            box-shadow: 0 0 20px 0 #999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+
+        }
+
+        form {
+            margin: 35px;
+            background-color: #fff;
+        }
+
+        .box {
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid #777;
+            border-radius: 14px;
+            outline: none;
+        }
+
+
+        .btn {
+            border-radius: 20px;
+            color: #fff;
+            margin-top: 18px;
+            padding: 10px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-box">
+        <form action="/feedback" method="post">
+            <center>
+                <h2>Feedback</h2>
+                <br>
+                <label>Name</label>
+                <input type="text" class="box" placeholder="Enter your name " name="name">
+
+                <label>Email</label>
+                <input type="text" class="box" placeholder="Enter your email " name="email">
+                <label>What you like about the website</label>
+                <textarea type="text" class="box " placeholder="Enter your message " name="like"></textarea>
+
+                <label>Is their anything we can do to improve our service?</label>
+                <textarea type="text" class="box " placeholder="Enter your message " name="service"></textarea>
+
+                <label>Your Suggestion</label>
+                <textarea type="text" class="box " placeholder="Enter your message " name="Suggestion"></textarea>
+
+
+
+
+
+                <button type="submit" class="btn">Send Message</button>
+
+            </center>
+        </form>
+
+    </div>
+</body>
+
+</html>

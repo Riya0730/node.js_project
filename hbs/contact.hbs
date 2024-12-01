@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact formt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /*background-color: #efefef;
+            font-family: sans-serif;*/
+            background: url("../img/rrr.jpg");
+            background-size: 1550px;
+        }
+
+        .contact-box {
+            width: 500px;
+            background: transparent;
+            box-shadow: 0 0 20px 0 #999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+
+        }
+
+        form {
+            margin: 35px;
+            background-color: white;
+        }
+
+        .box {
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid #777;
+            border-radius: 14px;
+            outline: none;
+        }
+
+
+        .btn {
+            border-radius: 20px;
+            color: #fff;
+            margin-top: 18px;
+            padding: 10px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-box">
+        <form action="/contact" method="post">
+            <center>
+                <h2>Contact Us</h2>
+                <input type="text" class="box" placeholder="Enter your name " name="fullname">
+                <input type="text" class="box" placeholder="Enter your email " name="email">
+
+                <textarea type="text" class="box " placeholder="Enter your message " name="message"></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+                {{!-- <a href="/login"><button type="button" class="btn">Registered</button></a> --}}
+            </center>
+        </form>
+
+    </div>
+</body>
+
+</html>
